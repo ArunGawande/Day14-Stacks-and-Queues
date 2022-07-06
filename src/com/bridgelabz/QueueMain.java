@@ -2,7 +2,7 @@ package com.bridgelabz;
 
 public class QueueMain 
 {
-      public static void main(String[] args) {
+public static void main(String[] args) {
 		
 		Queue queue = new Queue();
 		System.out.println("Queue Operation - EnQueue");
@@ -12,5 +12,14 @@ public class QueueMain
 		queue.display();
 		queue.enQueue(70);
 		queue.display();
-   }
+		System.out.println("Queue Operation - DeQueue");
+		queue.display();
+		queue.deQueue();
+		queue.display();
+		queue.deQueue();
+		queue.display();
+		queue.deQueue();
+		queue.display();
+
+	}
 }
